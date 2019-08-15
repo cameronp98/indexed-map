@@ -1,4 +1,7 @@
 /target
 **/*.rs.bk
+
+Cargo.lock
+
 /indexed-map.iml
 /.idea/
