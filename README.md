@@ -1,4 +1,4 @@
-# indexed-map
+# indexed_map
 
  A wrapper for `HashMap` that maps each value to a uniquely generated `usize` key.
 

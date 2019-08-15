@@ -1,4 +1,4 @@
-//! # indexed-map
+//! # indexed_map
 //! HashMap wrapper where each value corresponds to a uniquely generated `usize` key
 
 use std::collections::HashMap;
