@@ -3,6 +3,9 @@ name = "indexed_map"
 version = "0.1.0"
 authors = ["Cameron Phillips <cameron0505@gmail.com>"]
 edition = "2018"
+description = " A wrapper for `HashMap` that maps each value to a uniquely generated `usize` key."
+license = "MIT"
+license-file = "LICENSE"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
