@@ -72,7 +72,7 @@ impl<T> IndexedMap<T> {
     }
 
     /// Mutably access the underlying `HashMap`
-    pub fn inner_mut(&mut self) -> &HashMap<usize, T> {
+    pub fn inner_mut(&mut self) -> &mut HashMap<usize, T> {
         &mut self.items
     }
 
