@@ -19,7 +19,8 @@ impl<T> IndexedMap<T> {
     ///
     /// ```
     /// use indexed_map::IndexedMap;
-    /// let foo = IndexedMap::new();
+    /// let mut foo = IndexedMap::new();
+    /// let bar = foo.insert("bar");
     /// println!("{:?}", foo);
     /// ```
     pub fn new() -> IndexedMap<T> {
@@ -56,9 +57,9 @@ impl<T> IndexedMap<T> {
     /// }
     ///
     /// // access using unique keys
-    /// assert_eq!("Apple", fruits.get(apple).unwrap());
-    /// assert_eq!("Orange", fruits.get(orange).unwrap());
-    /// assert_eq!("Pear", fruits.get(pear).unwrap());
+    /// assert_eq!("Apple", *fruits.inner().get(&apple).unwrap());
+    /// assert_eq!("Orange", *fruits.inner().get(&orange).unwrap());
+    /// assert_eq!("Pear", *fruits.inner().get(&pear).unwrap());
     pub fn insert(&mut self, value: T) -> usize {
         let key = self.next_key();
         self.items.insert(key, value);
