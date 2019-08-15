@@ -2,8 +2,9 @@
 
  A wrapper for `HashMap` that maps each value to a uniquely generated `usize` key.
 
+![Crates.io](https://img.shields.io/crates/v/indexed_map)
+![Crates.io](https://img.shields.io/crates/l/indexed_map)
 [![Build Status](https://travis-ci.com/cameronp98/indexed-map.svg?branch=master)](https://travis-ci.com/cameronp98/indexed-map)
-
 
 Example usage:
 
