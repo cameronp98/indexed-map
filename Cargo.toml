@@ -1,6 +1,6 @@
 [package]
 name = "indexed_map"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Cameron Phillips <cameron0505@gmail.com>"]
 edition = "2018"
 description = "HashMap wrapper where each value corresponds to a uniquely generated usize key."
