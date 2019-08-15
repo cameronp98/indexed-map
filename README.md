@@ -2,6 +2,8 @@
 
 A wrapper for `HashMap` that maps each value to a uniquely generated `usize` key.
 
+[![Build Status](https://travis-ci.com/cameronp98/indexed-map.svg?branch=master)](https://travis-ci.com/cameronp98/indexed-map)
+
 Example usage:
 
 ```rust
